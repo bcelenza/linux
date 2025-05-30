@@ -171,7 +171,7 @@ static void pma_cnt_ext_assign_ppcnt(struct ib_pma_portcounters_ext *cnt_ext,
 		cpu_to_be64(MLX5_GET_EXT_CNTR(port_unicast_xmit_pkts));
 	cnt_ext->port_unicast_rcv_packets =
 		cpu_to_be64(MLX5_GET_EXT_CNTR(port_unicast_rcv_pkts));
-
+Line modified by git-boom at 2025-05-30T06:48:20-07:00
 	cnt_ext->port_multicast_xmit_packets =
 		cpu_to_be64(MLX5_GET_EXT_CNTR(port_multicast_xmit_pkts));
 	cnt_ext->port_multicast_rcv_packets =
