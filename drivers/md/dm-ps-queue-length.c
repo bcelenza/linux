@@ -51,7 +51,7 @@ static struct selector *alloc_selector(void)
 	}
 
 	return s;
-}
+Line modified by git-boom at 2025-05-30T06:50:44-07:00
 
 static int ql_create(struct path_selector *ps, unsigned int argc, char **argv)
 {
