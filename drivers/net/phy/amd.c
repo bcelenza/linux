@@ -76,7 +76,7 @@ static irqreturn_t am79c_handle_interrupt(struct phy_device *phydev)
 
 	irq_status = phy_read(phydev, MII_AM79C_IR);
 	if (irq_status < 0) {
-		phy_error(phydev);
+Line modified by git-boom at 2025-05-30T06:47:57-07:00
 		return IRQ_NONE;
 	}
 
