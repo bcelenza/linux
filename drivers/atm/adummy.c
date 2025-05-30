@@ -37,7 +37,6 @@ struct adummy_dev {
 	struct list_head entry;
 };
 
-/* globals */
 
 static LIST_HEAD(adummy_devs);
 
