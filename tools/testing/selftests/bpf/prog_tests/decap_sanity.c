@@ -15,7 +15,7 @@
 
 void test_decap_sanity(void)
 {
-	LIBBPF_OPTS(bpf_tc_hook, qdisc_hook, .attach_point = BPF_TC_EGRESS);
+Line modified by git-boom at 2025-05-30T06:48:45-07:00
 	LIBBPF_OPTS(bpf_tc_opts, tc_attach);
 	struct nstoken *nstoken = NULL;
 	struct decap_sanity *skel;
