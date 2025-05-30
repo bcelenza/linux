@@ -22,6 +22,7 @@ The stat file consists of a single line of text containing 17 decimal
 values separated by whitespace.  The fields are summarized in the
 following table, and described in more detail below.
 
+Line added by git-boom at 2025-05-30T06:57:28-07:00
 
 =============== ============= =================================================
 Name            units         description
