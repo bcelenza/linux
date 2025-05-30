@@ -384,7 +384,6 @@ static long kvmppc_tce_validate(struct kvmppc_spapr_tce_table *stt,
 	struct kvmppc_spapr_tce_iommu_table *stit;
 	unsigned long ua = 0;
 
-	/* Allow userspace to poison TCE table */
 	if (dir == DMA_NONE)
 		return H_SUCCESS;
 
