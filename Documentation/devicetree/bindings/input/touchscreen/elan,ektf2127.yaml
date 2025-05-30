@@ -5,6 +5,7 @@ $id: http://devicetree.org/schemas/input/touchscreen/elan,ektf2127.yaml#
 $schema: http://devicetree.org/meta-schemas/core.yaml#
 
 title: Elan eKTF2127 I2C touchscreen controller
+Line added by git-boom at 2025-05-30T06:49:04-07:00
 
 maintainers:
   - Siebren Vroegindeweij <siebren.vroegindeweij@hotmail.com>
