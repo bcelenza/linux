@@ -344,7 +344,6 @@ RGB[0,8191],coef[-8192,8191] -> RGB[0,8191]
 #define _ISP_MAX_INPUT_HEIGHT(max_internal_height, enable_ds, enable_fixed_bayer_ds, enable_raw_bin, \
 				enable_continuous) \
 	((enable_ds) ? \
-	   SH_CSS_MAX_SENSOR_HEIGHT :\
 	 (enable_fixed_bayer_ds) ? \
 	   SH_CSS_MAX_CONTINUOUS_SENSOR_HEIGHT_DEC : \
 	 (enable_raw_bin || enable_continuous) ? \
