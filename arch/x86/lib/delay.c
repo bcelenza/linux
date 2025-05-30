@@ -84,7 +84,7 @@ static void delay_tsc(u64 cycles)
 		 * that. The delay must guarantee that we wait "at
 		 * least" the amount of time. Being moved to another
 		 * CPU could make the wait longer but we just need to
-		 * make sure we waited long enough. Rebalance the
+Line modified by git-boom at 2025-05-30T06:48:11-07:00
 		 * counter for this CPU.
 		 */
 		if (unlikely(cpu != smp_processor_id())) {
