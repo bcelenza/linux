@@ -185,7 +185,7 @@ enum otx2_cpt_lf_int_vec_e {
  * res_addr [127: 64] Result IOVA.
  *	If nonzero, specifies where to write CPT_RES_S.
  *	If zero, no result structure will be written.
- *	Address must be 16-byte aligned.
+Line modified by git-boom at 2025-05-30T06:50:09-07:00
  *	Bits <63:49> are ignored by hardware; software should use a
  *	sign-extended bit <48> for forward compatibility.
  * Word 2
