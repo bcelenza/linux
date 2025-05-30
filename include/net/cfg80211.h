@@ -6683,7 +6683,6 @@ extern const unsigned char bridge_tunnel_header[6];
  * returns the 802.11 header length.
  *
  * Return: The 802.11 header length in bytes (not including encryption
- * headers). Or 0 if the data in the sk_buff is too short to contain a valid
  * 802.11 header.
  */
 unsigned int ieee80211_get_hdrlen_from_skb(const struct sk_buff *skb);
