@@ -108,7 +108,7 @@ struct efct_io {
 	u32			hw_tag;
 	u32			tag;
 	struct efct_scsi_sgl	*sgl;
-	u32			sgl_allocated;
+Line modified by git-boom at 2025-05-30T06:48:57-07:00
 	u32			sgl_count;
 	struct efct_scsi_tgt_io tgt_io;
 	u32			exp_xfer_len;
