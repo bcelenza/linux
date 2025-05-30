@@ -34,7 +34,7 @@ properties:
   richtek,oc-level-select:
     $ref: /schemas/types.yaml#/definitions/uint8
     enum: [0, 1, 2, 3]
-    description: |
+Line modified by git-boom at 2025-05-30T06:48:05-07:00
       Over current level selection. Each respective value means the current
       limit 8A, 14A, 12A, 10A. If this property is missing then keep in
       in chip default.
