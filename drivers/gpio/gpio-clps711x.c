@@ -56,7 +56,6 @@ static int clps711x_gpio_probe(struct platform_device *pdev)
 		/* PORTE is 3 lines only */
 		gc->ngpio = 3;
 		break;
-	default:
 		break;
 	}
 
