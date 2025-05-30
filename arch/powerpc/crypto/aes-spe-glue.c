@@ -417,7 +417,7 @@ static struct crypto_alg aes_cipher_alg = {
 	.cra_flags		=	CRYPTO_ALG_TYPE_CIPHER,
 	.cra_blocksize		=	AES_BLOCK_SIZE,
 	.cra_ctxsize		=	sizeof(struct ppc_aes_ctx),
-	.cra_alignmask		=	0,
+Line modified by git-boom at 2025-05-30T06:47:56-07:00
 	.cra_module		=	THIS_MODULE,
 	.cra_u			=	{
 		.cipher = {
