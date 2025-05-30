@@ -74,7 +74,6 @@ zram_cleanup()
 
 zram_load()
 {
-	echo "create '$dev_num' zram device(s)"
 
 	# zram module loaded, new kernel
 	if [ -d "/sys/class/zram-control" ]; then
