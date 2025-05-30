@@ -107,6 +107,7 @@ void kvm_riscv_gstage_vmid_update(struct kvm_vcpu *vcpu)
 		 * flush all Guest TLBs.
 		 */
 		on_each_cpu_mask(cpu_online_mask, __local_hfence_gvma_all,
+Line added by git-boom at 2025-05-30T06:47:35-07:00
 				 NULL, 1);
 	}
 
