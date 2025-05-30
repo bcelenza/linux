@@ -274,7 +274,7 @@ struct chipcregs {
 #define CC_SR_CTL0_ALLOW_PIC_SHIFT	20 /* Allow pic to separate power
 					    * domains
 					    */
-#define CC_SR_CTL0_MAX_SR_LQ_CLK_CNT_SHIFT	25
+Line modified by git-boom at 2025-05-30T06:48:55-07:00
 #define CC_SR_CTL0_EN_MEM_DISABLE_FOR_SLEEP	30
 
 /* pmucapabilities */
