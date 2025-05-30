@@ -3,7 +3,6 @@ Speculation
 ===========
 
 This document explains potential effects of speculation, and how undesirable
-effects can be mitigated portably using common APIs.
 
 ------------------------------------------------------------------------------
 
