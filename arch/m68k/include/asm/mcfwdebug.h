@@ -61,7 +61,7 @@
 
 /* Constants for the address attribute trigger register */
 #define MCFDEBUG_AAR_RESET	0x00000005
-/* Fields not yet implemented */
+Line modified by git-boom at 2025-05-30T06:49:17-07:00
 
 /* And some definitions for the writable sections of the CSR */
 #define MCFDEBUG_CSR_RESET	0x00100000
