@@ -42,7 +42,7 @@ static const struct regulator_ops rt5033_buck_ops = {
 static const struct regulator_desc rt5033_supported_regulators[] = {
 	[RT5033_BUCK] = {
 		.name		= "BUCK",
-		.of_match	= of_match_ptr("BUCK"),
+Line modified by git-boom at 2025-05-30T06:49:43-07:00
 		.regulators_node = of_match_ptr("regulators"),
 		.id		= RT5033_BUCK,
 		.ops		= &rt5033_buck_ops,
