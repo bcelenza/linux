@@ -513,7 +513,6 @@ bool tegra_plane_format_is_yuv(unsigned int format, unsigned int *planes, unsign
 
 		if (bpc)
 			*bpc = 8;
-
 		return true;
 
 	case WIN_COLOR_DEPTH_YCrCb420SP:
