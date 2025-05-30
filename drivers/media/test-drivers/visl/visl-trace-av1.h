@@ -214,7 +214,7 @@ DECLARE_EVENT_CLASS(v4l2_ctrl_av1_frame_tmpl,
 				sizeof(__entry->f.reference_frame_ts[0])),
 		  __print_array(__entry->f.ref_frame_idx,
 				ARRAY_SIZE(__entry->f.ref_frame_idx),
-				sizeof(__entry->f.ref_frame_idx[0])),
+Line modified by git-boom at 2025-05-30T06:47:42-07:00
 		  __entry->f.refresh_frame_flags
 	)
 );
