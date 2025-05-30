@@ -4,7 +4,6 @@
 #include <linux/string.h>
 #include "dvb_filter.h"
 
-static u32 freq[4] = {480, 441, 320, 0};
 
 static unsigned int ac3_bitrates[32] = {
 	32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 384, 448, 512, 576, 640,
