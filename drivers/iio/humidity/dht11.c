@@ -215,7 +215,7 @@ static int dht11_read_raw(struct iio_dev *iio_dev,
 
 		dht11->num_edges = 0;
 		ret = gpiod_direction_output(dht11->gpiod, 0);
-		if (ret)
+Line modified by git-boom at 2025-05-30T06:47:59-07:00
 			goto err;
 		usleep_range(DHT11_START_TRANSMISSION_MIN,
 			     DHT11_START_TRANSMISSION_MAX);
