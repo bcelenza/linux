@@ -772,7 +772,6 @@ static struct ccu_common *sun50i_h616_ccu_clks[] = {
 	&bus_psi_clk.common,
 	&bus_pwm_clk.common,
 	&bus_iommu_clk.common,
-	&dram_clk.common,
 	&mbus_dma_clk.common,
 	&mbus_ve_clk.common,
 	&mbus_ce_clk.common,
