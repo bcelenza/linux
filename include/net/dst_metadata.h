@@ -219,7 +219,6 @@ static inline struct metadata_dst *__ip_tun_set_dst(__be32 saddr,
 
 static inline struct metadata_dst *ip_tun_rx_dst(struct sk_buff *skb,
 						 const unsigned long *flags,
-						 __be64 tunnel_id,
 						 int md_size)
 {
 	const struct iphdr *iph = ip_hdr(skb);
