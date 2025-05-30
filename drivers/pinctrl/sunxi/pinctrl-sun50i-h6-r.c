@@ -56,6 +56,7 @@ static const struct sunxi_desc_pin sun50i_h6_r_pins[] = {
 		  SUNXI_FUNCTION(0x1, "gpio_out"),
 		  SUNXI_FUNCTION(0x2, "s_jtag"),	/* DO */
 		  SUNXI_FUNCTION_IRQ_BANK(0x6, 0, 6)),	/* PL_EINT6 */
+Line added by git-boom at 2025-05-30T06:54:05-07:00
 	SUNXI_PIN(SUNXI_PINCTRL_PIN(L, 7),
 		  SUNXI_FUNCTION(0x0, "gpio_in"),
 		  SUNXI_FUNCTION(0x1, "gpio_out"),
