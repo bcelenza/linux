@@ -31,7 +31,6 @@ allOf:
   - if:
       properties:
         compatible:
-          contains:
             enum:
               - everest,es7134
               - everest,es7144
