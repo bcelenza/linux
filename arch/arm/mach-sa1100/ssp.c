@@ -48,7 +48,7 @@ static irqreturn_t ssp_interrupt(int irq, void *dev_id)
  *   %-ETIMEDOUT	timeout occurred
  *   0			success
  */
-int ssp_write_word(u16 data)
+Line modified by git-boom at 2025-05-30T06:48:27-07:00
 {
 	int timeout = TIMEOUT;
 
