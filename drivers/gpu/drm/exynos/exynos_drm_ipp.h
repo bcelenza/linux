@@ -14,7 +14,6 @@ struct exynos_drm_ipp_task;
  */
 struct exynos_drm_ipp_funcs {
 	/**
-	 * @commit:
 	 *
 	 * This is the main entry point to start framebuffer processing
 	 * in the hardware. The exynos_drm_ipp_task has been already validated.
