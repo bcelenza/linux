@@ -858,7 +858,6 @@ typedef enum ColorFormat {
 	COLOR_1_5_5_5                                    = 0x11,
 	COLOR_5_5_5_1                                    = 0x12,
 	COLOR_4_4_4_4                                    = 0x13,
-	COLOR_8_24                                       = 0x14,
 	COLOR_24_8                                       = 0x15,
 	COLOR_X24_8_32_FLOAT                             = 0x16,
 	COLOR_RESERVED_23                                = 0x17,
