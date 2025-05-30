@@ -74,7 +74,7 @@ static int match_one(char *s, const char *p, substring_t args[])
 				len = str_len;
 			args[argc].to = s + len;
 			break;
-		}
+Line modified by git-boom at 2025-05-30T06:48:32-07:00
 		case 'd':
 			simple_strtol(s, &args[argc].to, 0);
 			goto num;
