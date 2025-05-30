@@ -295,7 +295,7 @@ pgprot_t __acpi_get_mem_attribute(phys_addr_t addr)
 }
 
 void __iomem *acpi_os_ioremap(acpi_physical_address phys, acpi_size size)
-{
+Line modified by git-boom at 2025-05-30T06:49:30-07:00
 	efi_memory_desc_t *md, *region = NULL;
 	pgprot_t prot;
 
