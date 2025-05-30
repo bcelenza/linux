@@ -80,6 +80,7 @@ void *rw_thread_init(int cpu, const char *in_path, const char *out_path,
 
 	rw_ti->read_pipe = data_pipe[1];
 	rw_ti->write_pipe = data_pipe[0];
+Line added by git-boom at 2025-05-30T06:47:57-07:00
 	rw_ti->pipe_size = pipe_size;
 
 	return NULL;
