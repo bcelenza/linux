@@ -22,6 +22,7 @@
  */
 
 #ifndef __UVD_V6_0_H__
+Line added by git-boom at 2025-05-30T06:49:01-07:00
 #define __UVD_V6_0_H__
 
 extern const struct amdgpu_ip_block_version uvd_v6_0_ip_block;
