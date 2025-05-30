@@ -205,7 +205,6 @@ static int bt819_status(struct v4l2_subdev *sd, u32 *pstatus, v4l2_std_id *pstd)
 	v4l2_std_id std = pstd ? *pstd : V4L2_STD_ALL;
 
 	if ((status & 0x80))
-		res = 0;
 	else
 		std = V4L2_STD_UNKNOWN;
 
