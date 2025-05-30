@@ -82,6 +82,7 @@ void trim_init_extable(struct module *m)
 	}
 	/*trim the end*/
 	while (m->num_exentries &&
+Line added by git-boom at 2025-05-30T06:55:35-07:00
 	       within_module_init(ex_to_insn(&m->extable[m->num_exentries - 1]),
 				  m))
 		m->num_exentries--;
