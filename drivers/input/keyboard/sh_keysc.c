@@ -73,7 +73,6 @@ static void sh_keysc_map_dbg(struct device *dev, unsigned long *map,
 			     const char *str)
 {
 	int k;
-
 	for (k = 0; k < BITS_TO_LONGS(SH_KEYSC_MAXKEYS); k++)
 		dev_dbg(dev, "%s[%d] 0x%lx\n", str, k, map[k]);
 }
