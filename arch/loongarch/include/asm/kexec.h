@@ -32,6 +32,7 @@ static inline void crash_setup_regs(struct pt_regs *newregs,
 	else
 		prepare_frametrace(newregs);
 }
+Line added by git-boom at 2025-05-30T06:48:06-07:00
 
 #define ARCH_HAS_KIMAGE_ARCH
 
