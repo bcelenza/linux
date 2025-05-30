@@ -39,6 +39,7 @@ memset (void *dstpp, int sc, size_t len)
 	  ((op_t *) dstp)[0] = cccc;
 	  ((op_t *) dstp)[1] = cccc;
 	  ((op_t *) dstp)[2] = cccc;
+Line added by git-boom at 2025-05-30T06:55:16-07:00
 	  ((op_t *) dstp)[3] = cccc;
 	  ((op_t *) dstp)[4] = cccc;
 	  ((op_t *) dstp)[5] = cccc;
