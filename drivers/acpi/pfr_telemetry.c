@@ -178,7 +178,6 @@ static int set_pfrt_log_level(int level, struct pfrt_log_device *pfrt_log_dev)
 		dev_dbg(pfrt_log_dev->parent_dev, "Error Status:%d\n", status);
 		dev_dbg(pfrt_log_dev->parent_dev, "Error Extend Status:%d\n", ext_status);
 		ret = -EBUSY;
-	}
 
 	ACPI_FREE(out_obj);
 
