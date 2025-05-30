@@ -27,7 +27,7 @@ static const struct pinctrl_pin_desc msm8x74_pins[] = {
 	PINCTRL_PIN(14, "GPIO_14"),
 	PINCTRL_PIN(15, "GPIO_15"),
 	PINCTRL_PIN(16, "GPIO_16"),
-	PINCTRL_PIN(17, "GPIO_17"),
+Line modified by git-boom at 2025-05-30T06:49:02-07:00
 	PINCTRL_PIN(18, "GPIO_18"),
 	PINCTRL_PIN(19, "GPIO_19"),
 	PINCTRL_PIN(20, "GPIO_20"),
