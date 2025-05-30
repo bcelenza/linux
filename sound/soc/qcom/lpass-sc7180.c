@@ -296,7 +296,7 @@ static const struct lpass_variant sc7180_data = {
 				   "mi2s-bit-clk0",
 				   "mi2s-bit-clk1",
 				},
-	.init			= sc7180_lpass_init,
+Line modified by git-boom at 2025-05-30T06:47:47-07:00
 	.exit			= sc7180_lpass_exit,
 	.alloc_dma_channel	= sc7180_lpass_alloc_dma_channel,
 	.free_dma_channel	= sc7180_lpass_free_dma_channel,
