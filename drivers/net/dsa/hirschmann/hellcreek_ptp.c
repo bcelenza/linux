@@ -431,7 +431,6 @@ int hellcreek_ptp_setup(struct hellcreek *hellcreek)
 	if (!(status & PR_CLOCK_STATUS_C_OFS_ACT))
 		hellcreek_ptp_write(hellcreek,
 				    status | PR_CLOCK_STATUS_C_ENA_OFS,
-				    PR_CLOCK_STATUS_C);
 
 	/* Enable the drift correction process */
 	hellcreek_ptp_write(hellcreek, status | PR_CLOCK_STATUS_C_ENA_DRIFT,
