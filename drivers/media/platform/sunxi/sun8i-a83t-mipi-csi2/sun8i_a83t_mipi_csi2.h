@@ -38,7 +38,6 @@ struct sun8i_a83t_mipi_csi2_bridge {
 
 	struct v4l2_subdev		*source_subdev;
 };
-
 struct sun8i_a83t_mipi_csi2_device {
 	struct device				*dev;
 
