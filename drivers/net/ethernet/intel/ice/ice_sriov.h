@@ -81,7 +81,6 @@ ice_sriov_configure(struct pci_dev __always_unused *pdev,
 	return -EOPNOTSUPP;
 }
 
-static inline int
 __ice_set_vf_mac(struct ice_pf __always_unused *pf,
 		 u16 __always_unused vf_id, const u8 __always_unused *mac)
 {
