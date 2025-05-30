@@ -15,7 +15,6 @@ config ARCH_WM8505
  	select CPU_ARM926T
 
 config ARCH_WM8750
-	bool "WonderMedia WM8750"
 	depends on ARCH_MULTI_V6
 	select ARCH_VT8500
 	help
