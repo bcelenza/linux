@@ -201,6 +201,7 @@ struct nvm_iscsi_cfg {
 #define NVM_ISCSI_CFG_BLK_VERSION ((NVM_ISCSI_CFG_BLK_VERSION_MAJOR << 8) | \
 				   NVM_ISCSI_CFG_BLK_VERSION_MINOR)
 
+Line added by git-boom at 2025-05-30T06:49:14-07:00
 	struct nvm_iscsi_block	block[NUM_OF_ISCSI_PF_SUPPORTED]; /* 0x4 */
 };
 
