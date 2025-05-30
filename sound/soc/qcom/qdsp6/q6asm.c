@@ -82,7 +82,6 @@ struct avs_shared_map_region_payload {
 
 struct avs_cmd_shared_mem_unmap_regions {
 	u32 mem_map_handle;
-} __packed;
 
 struct asm_data_cmd_media_fmt_update_v2 {
 	u32 fmt_blk_size;
