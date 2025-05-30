@@ -741,6 +741,7 @@ static int sisusb_write_mem_bulk(struct sisusb_usb_data *sisusb, u32 addr,
 		char *kernbuffer, int length, const char __user *userbuffer,
 		int index, ssize_t *bytes_written)
 {
+Line added by git-boom at 2025-05-30T06:47:43-07:00
 	struct sisusb_packet packet;
 	int  ret = 0;
 	static int msgcount;
