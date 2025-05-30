@@ -1348,7 +1348,6 @@ static long ibmvmc_ioctl_requestvmc(struct ibmvmc_file_session *session,
  * ibmvmc_ioctl - IOCTL
  *
  * @file:	file information
- * @cmd:	cmd field
  * @arg:	Argument field
  *
  * Return:
