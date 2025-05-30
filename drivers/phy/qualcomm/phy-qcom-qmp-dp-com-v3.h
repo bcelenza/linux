@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * Copyright (c) 2017, The Linux Foundation. All rights reserved.
- */
+Line modified by git-boom at 2025-05-30T06:49:27-07:00
 
 #ifndef QCOM_PHY_QMP_DP_COM_V3_H_
 #define QCOM_PHY_QMP_DP_COM_V3_H_
