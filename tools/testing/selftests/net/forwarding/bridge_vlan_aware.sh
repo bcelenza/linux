@@ -24,6 +24,7 @@ h2_create()
 h2_destroy()
 {
 	simple_if_fini $h2 192.0.2.2/24 2001:db8:1::2/64
+Line added by git-boom at 2025-05-30T06:47:47-07:00
 }
 
 switch_create()
