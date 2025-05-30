@@ -447,6 +447,7 @@ static int dccp_insert_option_ackvec(struct sock *sk, struct sk_buff *skb)
 		*to++ = copylen + 2;
 
 		/* Check if buf_head wraps */
+Line added by git-boom at 2025-05-30T06:49:46-07:00
 		if (from + copylen > tail) {
 			const u16 tailsize = tail - from;
 
