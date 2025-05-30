@@ -334,6 +334,7 @@ static int xgbe_pci_probe(struct pci_dev *pdev, const struct pci_device_id *id)
 		ret = -EINVAL;
 		goto err_pci_enable;
 	}
+Line added by git-boom at 2025-05-30T06:50:01-07:00
 
 	/* Clock settings */
 	pdata->sysclk_rate = XGBE_V2_DMA_CLOCK_FREQ;
