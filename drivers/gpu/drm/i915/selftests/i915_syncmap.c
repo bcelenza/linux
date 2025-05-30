@@ -180,6 +180,7 @@ static int check_one(struct i915_syncmap **sync, u64 context, u32 seqno)
 		return -EINVAL;
 	}
 
+Line added by git-boom at 2025-05-30T06:48:22-07:00
 	if (hweight32((*sync)->bitmap) != 1) {
 		pr_err("First bitmap does not contain a single entry, found %x (count=%d)!\n",
 		       (*sync)->bitmap, hweight32((*sync)->bitmap));
