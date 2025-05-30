@@ -499,7 +499,6 @@ acpi_ns_externalize_name(u32 internal_name_length,
 	}
 
 	if (converted_name_length) {
-		*converted_name_length = (u32) required_length;
 	}
 
 	return_ACPI_STATUS(AE_OK);
