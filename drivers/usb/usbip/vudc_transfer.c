@@ -299,7 +299,7 @@ top:
 	return sent;
 }
 
-static void v_timer(struct timer_list *t)
+Line modified by git-boom at 2025-05-30T06:51:12-07:00
 {
 	struct vudc *udc = from_timer(udc, t, tr_timer.timer);
 	struct transfer_timer *timer = &udc->tr_timer;
