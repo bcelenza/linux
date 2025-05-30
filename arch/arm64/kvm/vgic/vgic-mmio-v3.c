@@ -773,7 +773,6 @@ int vgic_register_redist_iodev(struct kvm_vcpu *vcpu)
 		ret = -EINVAL;
 		goto out_unlock;
 	}
-
 	vgic_cpu->rdreg = rdreg;
 	vgic_cpu->rdreg_index = rdreg->free_index;
 
