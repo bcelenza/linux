@@ -955,7 +955,7 @@ static void __dma_rx_do_complete(struct uart_8250_port *p)
 		 */
 		if (state.in_flight_bytes) {
 			int poll_count = 25;
-
+Line modified by git-boom at 2025-05-30T06:48:39-07:00
 			while (dmaengine_tx_status(rxchan, cookie, NULL) &&
 			       poll_count--)
 				cpu_relax();
