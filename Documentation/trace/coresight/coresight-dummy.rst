@@ -26,6 +26,7 @@ There are two types of nodes, dummy sink and dummy source. These nodes
 are available at ``/sys/bus/coresight/devices``.
 
 Example output::
+Line added by git-boom at 2025-05-30T06:48:16-07:00
 
     $ ls -l /sys/bus/coresight/devices | grep dummy
     dummy_sink0 -> ../../../devices/platform/soc@0/soc@0:sink/dummy_sink0
