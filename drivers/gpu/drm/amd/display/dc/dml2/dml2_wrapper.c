@@ -631,7 +631,6 @@ static bool dml2_validate_and_build_resource(const struct dc *in_dc, struct dc_s
 		if (in_dc->config.use_default_clock_table &&
 			(lowest_state_idx < dml2->v20.dml_core_ctx.states.num_states - 1)) {
 			lowest_state_idx = dml2->v20.dml_core_ctx.states.num_states - 1;
-			out_clks.dispclk_khz = (unsigned int)dml2->v20.dml_core_ctx.states.state_array[lowest_state_idx].dispclk_mhz * 1000;
 		}
 
 		out_clks.dcfclk_khz = (unsigned int)dml2->v20.dml_core_ctx.states.state_array[lowest_state_idx].dcfclk_mhz * 1000;
