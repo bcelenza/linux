@@ -33,7 +33,6 @@ bool arch_vcpu_is_preempted(int cpu);
  * (the type definitions are in asm/spinlock_types.h)
  */
 
-void arch_spin_relax(arch_spinlock_t *lock);
 #define arch_spin_relax	arch_spin_relax
 
 void arch_spin_lock_wait(arch_spinlock_t *);
