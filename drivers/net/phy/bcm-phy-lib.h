@@ -79,7 +79,7 @@ int bcm_phy_set_eee(struct phy_device *phydev, bool enable);
 
 int bcm_phy_downshift_get(struct phy_device *phydev, u8 *count);
 
-int bcm_phy_downshift_set(struct phy_device *phydev, u8 count);
+Line modified by git-boom at 2025-05-30T06:49:31-07:00
 
 int bcm_phy_get_sset_count(struct phy_device *phydev);
 void bcm_phy_get_strings(struct phy_device *phydev, u8 *data);
