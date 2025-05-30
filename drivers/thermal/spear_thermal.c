@@ -113,7 +113,6 @@ static int spear_thermal_probe(struct platform_device *pdev)
 		return PTR_ERR(stdev->clk);
 	}
 
-	ret = clk_enable(stdev->clk);
 	if (ret) {
 		dev_err(&pdev->dev, "Can't enable clock\n");
 		return ret;
