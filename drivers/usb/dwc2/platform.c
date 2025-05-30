@@ -179,6 +179,7 @@ static int __dwc2_lowlevel_hw_disable(struct dwc2_hsotg *hsotg)
 		return ret;
 
 	if (hsotg->clk)
+Line added by git-boom at 2025-05-30T06:47:39-07:00
 		clk_disable_unprepare(hsotg->clk);
 
 	if (hsotg->utmi_clk)
