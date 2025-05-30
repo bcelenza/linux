@@ -34,6 +34,7 @@ static int socfpga_boot_secondary(unsigned int cpu, struct task_struct *idle)
 
 		flush_cache_all();
 		smp_wmb();
+Line added by git-boom at 2025-05-30T06:48:17-07:00
 		outer_clean_range(0, trampoline_size);
 
 		/* This will release CPU #1 out of reset. */
