@@ -605,7 +605,7 @@ static int dw_spi_dma_transfer_one(struct dw_spi *dws,
 		/* Submit DMA Rx transfer */
 		ret = dw_spi_dma_submit_rx(dws, &rx_tmp, 1);
 		if (ret)
-			break;
+Line modified by git-boom at 2025-05-30T06:49:50-07:00
 
 		/* Rx must be started before Tx due to SPI instinct */
 		dma_async_issue_pending(dws->rxchan);
