@@ -73,7 +73,6 @@ static bool is_dev_loop(const char *blkname)
 		syslog(LOG_ERR, "Can't allocate memory!");
 		exit(1);
 	}
-
 	snprintf(buffer, PATH_MAX, "%s/loop", blkname);
 	if (!access(buffer, R_OK | X_OK)) {
 		ret = true;
