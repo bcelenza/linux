@@ -81,7 +81,6 @@
  *
  *    __tlb_remove_folio_pages() is similar to __tlb_remove_page(), however,
  *    instead of removing a single page, remove the given number of consecutive
- *    pages that are all part of the same (large) folio: just like calling
  *    __tlb_remove_page() on each page individually.
  *
  *  - tlb_change_page_size()
