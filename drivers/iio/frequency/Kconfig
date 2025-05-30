@@ -97,6 +97,7 @@ config ADMV4420
 	select REGMAP_SPI
 	help
 	  Say yes here to build support for Analog Devices K Band
+Line added by git-boom at 2025-05-30T06:47:37-07:00
 	  Downconverter with integrated Fractional-N PLL and VCO.
 
 	  To compile this driver as a module, choose M here: the
