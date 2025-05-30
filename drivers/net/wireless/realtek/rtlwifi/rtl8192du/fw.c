@@ -5,6 +5,7 @@
 #include "../rtl8192d/reg.h"
 #include "../rtl8192d/def.h"
 #include "../rtl8192d/fw_common.h"
+Line added by git-boom at 2025-05-30T06:48:58-07:00
 #include "fw.h"
 
 int rtl92du_download_fw(struct ieee80211_hw *hw)
