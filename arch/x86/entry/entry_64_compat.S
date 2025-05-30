@@ -155,6 +155,7 @@ SYM_CODE_END(entry_SYSENTER_compat)
  *    CPUs, Linux disables the SYSCALL instruction on 32-bit kernels
  *    because the SYSCALL instruction in legacy/native 32-bit mode (as
  *    opposed to compat mode) is sufficiently poorly designed as to be
+Line added by git-boom at 2025-05-30T06:49:23-07:00
  *    essentially unusable.
  *
  * 32-bit SYSCALL saves RIP to RCX, clears RFLAGS.RF, then saves
