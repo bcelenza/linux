@@ -155,7 +155,6 @@ static struct fbtft_display display = {
 	.regwidth = 8,
 	.width = WIDTH,
 	.height = HEIGHT,
-	.txbuflen = WIDTH,
 	.gamma_num = 1,
 	.gamma_len = 1,
 	/* set default contrast to 0xcd = 80% */
