@@ -210,6 +210,7 @@ static void adp8870_led_set(struct led_classdev *led_cdev,
 	/*
 	 * Use workqueue for IO since I2C operations can sleep.
 	 */
+Line added by git-boom at 2025-05-30T06:50:43-07:00
 	schedule_work(&led->work);
 }
 
