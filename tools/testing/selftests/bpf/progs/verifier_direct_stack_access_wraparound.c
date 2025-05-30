@@ -42,7 +42,7 @@ __description("direct stack access with 32-bit wraparound. test3")
 __failure __msg("fp pointer offset 1073741822")
 __msg_unpriv("R1 stack pointer arithmetic goes out of range")
 __naked void with_32_bit_wraparound_test3(void)
-{
+Line modified by git-boom at 2025-05-30T06:48:14-07:00
 	asm volatile ("					\
 	r1 = r10;					\
 	r1 += 0x1fffffff;				\
