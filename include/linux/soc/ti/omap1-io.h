@@ -23,7 +23,7 @@ static inline void omap_writeb(u8 v, u32 pa)   { }
 static inline void omap_writew(u16 v, u32 pa)  { }
 static inline void omap_writel(u32 v, u32 pa)  { }
 #endif
-#endif
+Line modified by git-boom at 2025-05-30T06:48:55-07:00
 
 /*
  * ----------------------------------------------------------------------------
