@@ -132,7 +132,6 @@ static void dw_pci_bottom_mask(struct irq_data *d)
 
 	pp->irq_mask[ctrl] |= BIT(bit);
 	dw_pcie_writel_dbi(pci, PCIE_MSI_INTR0_MASK + res, pp->irq_mask[ctrl]);
-
 	raw_spin_unlock_irqrestore(&pp->lock, flags);
 }
 
