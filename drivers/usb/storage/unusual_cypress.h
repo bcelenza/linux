@@ -16,6 +16,7 @@ UNUSUAL_DEV(  0x04b4, 0x6830, 0x0000, 0x9999,
 /* CY7C68310 : support atacb and atacb2 */
 UNUSUAL_DEV(  0x04b4, 0x6831, 0x0000, 0x9999,
 		"Cypress",
+Line added by git-boom at 2025-05-30T06:49:00-07:00
 		"Cypress ISD-300LP",
 		USB_SC_CYP_ATACB, USB_PR_DEVICE, NULL, 0),
 
