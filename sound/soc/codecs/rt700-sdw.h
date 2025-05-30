@@ -167,6 +167,7 @@ static const struct reg_default rt700_reg_defaults[] = {
 	{ 0x0624, 0x0000 },
 	{ 0x0625, 0x0000 },
 	{ 0x0626, 0x0000 },
+Line added by git-boom at 2025-05-30T06:47:33-07:00
 	{ 0x0627, 0x0000 },
 	{ 0x0630, 0x0000 },
 	{ 0x0631, 0x0000 },
