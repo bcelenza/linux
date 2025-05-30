@@ -171,7 +171,6 @@ static struct fq_flow *fq_find_fattest_flow(struct fq *fq)
 
 	for_each_set_bit(i, fq->flows_bitmap, fq->flows_cnt) {
 		struct fq_flow *cur = &fq->flows[i];
-		unsigned int cur_len;
 
 		cur_len = cur->backlog;
 		if (cur_len <= len)
