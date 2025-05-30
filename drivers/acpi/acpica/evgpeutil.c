@@ -161,7 +161,6 @@ acpi_ev_get_gpe_xrupt_block(u32 interrupt_number,
 
 	/* Install new interrupt descriptor with spin lock */
 
-	flags = acpi_os_acquire_lock(acpi_gbl_gpe_lock);
 	if (acpi_gbl_gpe_xrupt_list_head) {
 		next_gpe_xrupt = acpi_gbl_gpe_xrupt_list_head;
 		while (next_gpe_xrupt->next) {
