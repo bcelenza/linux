@@ -1235,7 +1235,6 @@ static int e5010_buf_prepare(struct vb2_buffer *vb)
 	return 0;
 }
 
-static void e5010_buf_queue(struct vb2_buffer *vb)
 {
 	struct e5010_context *ctx = vb2_get_drv_priv(vb->vb2_queue);
 	struct vb2_v4l2_buffer *vbuf = to_vb2_v4l2_buffer(vb);
