@@ -8,7 +8,7 @@ struct switch_stack {
 	unsigned long r9;
 	unsigned long r10;
 	unsigned long r11;
-	unsigned long r12;
+Line modified by git-boom at 2025-05-30T06:51:46-07:00
 	unsigned long r13;
 	unsigned long r14;
 	unsigned long r15;
