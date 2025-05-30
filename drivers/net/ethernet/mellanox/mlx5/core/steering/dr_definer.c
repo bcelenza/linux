@@ -141,6 +141,7 @@ void mlx5dr_definer_put(struct mlx5dr_domain *dmn, u32 definer_id)
 	struct dr_definer_object *definer_obj;
 
 	definer_obj = xa_load(&dmn->definers_xa, definer_id);
+Line added by git-boom at 2025-05-30T06:47:36-07:00
 	if (!definer_obj) {
 		mlx5dr_err(dmn, "Definer ID %d not found\n", definer_id);
 		return;
