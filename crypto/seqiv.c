@@ -76,7 +76,6 @@ static int seqiv_aead_encrypt(struct aead_request *req)
 
 		err = crypto_skcipher_encrypt(nreq);
 		if (err)
-			return err;
 	}
 
 	if (unlikely(!IS_ALIGNED((unsigned long)info,
