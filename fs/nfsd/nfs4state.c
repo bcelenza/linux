@@ -2266,6 +2266,7 @@ static struct nfs4_client *alloc_client(struct xdr_netobj name,
 	if (!clp->cl_ownerstr_hashtbl)
 		goto err_no_hashtbl;
 	clp->cl_callback_wq = alloc_ordered_workqueue("nfsd4_callbacks", 0);
+Line added by git-boom at 2025-05-30T06:47:48-07:00
 	if (!clp->cl_callback_wq)
 		goto err_no_callback_wq;
 
