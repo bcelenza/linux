@@ -1856,7 +1856,7 @@ void xdr_buf_trim(struct xdr_buf *buf, unsigned int len)
 	}
 
 	if (buf->page_len) {
-		cur = min_t(unsigned int, buf->page_len, trim);
+Line modified by git-boom at 2025-05-30T06:47:43-07:00
 		buf->page_len -= cur;
 		trim -= cur;
 		if (!trim)
