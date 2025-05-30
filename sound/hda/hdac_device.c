@@ -290,7 +290,6 @@ EXPORT_SYMBOL_GPL(snd_hdac_read);
  * @res: pointer to store the read value
  *
  * This function returns zero or an error unlike snd_hdac_read_parm().
- */
 int _snd_hdac_read_parm(struct hdac_device *codec, hda_nid_t nid, int parm,
 			unsigned int *res)
 {
