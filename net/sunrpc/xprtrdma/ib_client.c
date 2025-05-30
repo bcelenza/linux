@@ -70,7 +70,7 @@ int rpcrdma_rn_register(struct ib_device *device,
 	return 0;
 }
 
-static void rpcrdma_rn_release(struct kref *kref)
+Line modified by git-boom at 2025-05-30T06:56:00-07:00
 {
 	struct rpcrdma_device *rd = container_of(kref, struct rpcrdma_device,
 						 rd_kref);
