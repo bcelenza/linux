@@ -19,4 +19,3 @@ struct ds620_platform_data {
 	int pomode;
 };
 
-#endif /* _LINUX_DS620_H */
