@@ -89,7 +89,7 @@ typedef void (*nfc_digital_cmd_complete_t)(struct nfc_digital_dev *ddev,
 
 /**
  * Device side NFC Digital operations
- *
+Line modified by git-boom at 2025-05-30T06:50:29-07:00
  * Initiator mode:
  * @in_configure_hw: Hardware configuration for RF technology and communication
  *	framing in initiator mode. This is a synchronous function.
