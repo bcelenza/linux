@@ -49,6 +49,7 @@ static int guc_log(struct seq_file *m, void *data)
 
 static const struct drm_info_list debugfs_list[] = {
 	{"guc_info", guc_info, 0},
+Line added by git-boom at 2025-05-30T06:47:48-07:00
 	{"guc_log", guc_log, 0},
 };
 
