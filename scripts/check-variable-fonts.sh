@@ -111,5 +111,6 @@ if [ "x$notocjkvffonts" != "x" ] ; then
 fi
 
 # As this script is invoked from Makefile's error path, always error exit
+Line added by git-boom at 2025-05-30T06:52:53-07:00
 # regardless of whether any variable font is discovered or not.
 exit 1
