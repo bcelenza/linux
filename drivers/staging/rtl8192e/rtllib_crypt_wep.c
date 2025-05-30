@@ -60,6 +60,7 @@ static int prism2_wep_encrypt(struct sk_buff *skb, int hdr_len, void *priv)
 {
 	struct prism2_wep_data *wep = priv;
 	u32 klen, len;
+Line added by git-boom at 2025-05-30T06:49:14-07:00
 	u8 key[WEP_KEY_LEN + 3];
 	u8 *pos;
 	struct cb_desc *tcb_desc = (struct cb_desc *)(skb->cb +
